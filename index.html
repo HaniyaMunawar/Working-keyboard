@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard</title>
+    <link rel="icon"
+        href="https://play-lh.googleusercontent.com/-T9LWvUtdAT4faOMnIOy0oInlZNPYquWJLFE1P0kL_R-WQvCK3nIdkqtZMkiHdCk9seW">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <div class="input">
+            <input type="text" name="display" id="d" placeholder="Type.." readonly>
+        </div>
+        <div class="keyboard">
+            <div class="row">
+                <button type="button" value="`" class="sm key" onclick="display.value += this.value">`</button>
+                <button type="button" value="1" class="key" onclick="display.value += this.value">1</button>
+                <button type="button" value="2" class="key" onclick="display.value += this.value">2</button>
+                <button type="button" value="3" class="key" onclick="display.value += this.value">3</button>
+                <button type="button" value="4" class="key" onclick="display.value += this.value">4</button>
+                <button type="button" value="5" class="key" onclick="display.value += this.value">5</button>
+                <button type="button" value="6" class="key" onclick="display.value += this.value">6</button>
+                <button type="button" value="7" class="key" onclick="display.value += this.value">7</button>
+                <button type="button" value="8" class="key" onclick="display.value += this.value">8</button>
+                <button type="button" value="9" class="key" onclick="display.value += this.value">9</button>
+                <button type="button" value="0" class="key" onclick="display.value += this.value">0</button>
+                <button type="button" value="-" class="key" onclick="display.value += this.value">-</button>
+                <button type="button" value="=" class="key" onclick="display.value += this.value">=</button>
+                <button type="button" value="BackSpace" class="Back"
+                    onclick="display.value = display.value.toString().slice(0,-1)">BackSpace</button>
+            </div>
+            <div class="row">
+                <button type="button" value="Tab" class="key">Tab</button>
+                <button type="button" value="q" class="key" onclick="display.value += this.value">q</button>
+                <button type="button" value="w" class="key" onclick="display.value += this.value">w</button>
+                <button type="button" value="e" class="key" onclick="display.value += this.value">e</button>
+                <button type="button" value="r" class="key" onclick="display.value += this.value">r</button>
+                <button type="button" value="t" class="key" onclick="display.value += this.value">t</button>
+                <button type="button" value="y" class="key" onclick="display.value += this.value">y</button>
+                <button type="button" value="u" class="key" onclick="display.value += this.value">u</button>
+                <button type="button" value="i" class="key" onclick="display.value += this.value">i</button>
+                <button type="button" value="o" class="key" onclick="display.value += this.value">o</button>
+                <button type="button" value="p" class="key" onclick="display.value += this.value">p</button>
+                <button type="button" value="[" class="key" onclick="display.value += this.value">[</button>
+                <button type="button" value="]" class="key" onclick="display.value += this.value">]</button>
+                <button type="button" value="\" class="key" onclick="display.value += this.value">\</button>
+
+            </div>
+            <div class="row">
+                <button type="button" value="CapsLock" class="key">CapsLock</button>
+                <button type="button" value="a" class="key" onclick="display.value += this.value">a</button>
+                <button type="button" value="s" class="key" onclick="display.value += this.value">s</button>
+                <button type="button" value="d" class="key" onclick="display.value += this.value">d</button>
+                <button type="button" value="f" class="key" onclick="display.value += this.value">f</button>
+                <button type="button" value="g" class="key" onclick="display.value += this.value">g</button>
+                <button type="button" value="h" class="key" onclick="display.value += this.value">h</button>
+                <button type="button" value="j" class="key" onclick="display.value += this.value">j</button>
+                <button type="button" value="k" class="key" onclick="display.value += this.value">k</button>
+                <button type="button" value="l" class="key" onclick="display.value += this.value">l</button>
+                <button type="button" value=";" class="key" onclick="display.value += this.value">;</button>
+                <button type="button" value="'" class="key" onclick="display.value += this.value">'</button>
+                <button type="button" value="Enter" class="key Enter">Enter</button>
+
+            </div>
+            <div class="row">
+                <button type="button" value="Shift" id="shift" class="Shift">Shift</button>
+                <button type="button" value="z" class="key" onclick="display.value += this.value">z</button>
+                <button type="button" value="x" class="key" onclick="display.value += this.value">x</button>
+                <button type="button" value="c" class="key" onclick="display.value += this.value">c</button>
+                <button type="button" value="v" class="key" onclick="display.value += this.value">v</button>
+                <button type="button" value="b" class="key" onclick="display.value += this.value">b</button>
+                <button type="button" value="n" class="key" onclick="display.value += this.value">n</button>
+                <button type="button" value="m" class="key" onclick="display.value += this.value">m</button>
+                <button type="button" value="," class="key" onclick="display.value += this.value">,</button>
+                <button type="button" value="." class="key" onclick="display.value += this.value">.</button>
+                <button type="button" value="/" class="key" onclick="display.value += this.value">/</button>
+                <button type="button" value="Shift" class="Shift">Shift</button>
+
+            </div>
+            <div class="row">
+                <button type="button" value="Ctrl">Ctrl</button>
+                <button type="button" value="⊞ Win">⊞ Win</button>
+                <button type="button" value="Alt">Alt</button>
+                <button type="button" value="Space Bar" class="Space" onclick="display.value += ' '">Space Bar</button>
+                <button type="button" value="Alt">Alt</button>
+                <button type="button" value="⊞ Win">⊞ Win</button>
+                <button type="button" value="|-|">|-|</button>
+                <button type="button" value="Ctrl">Ctrl</button>
+            </div>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
